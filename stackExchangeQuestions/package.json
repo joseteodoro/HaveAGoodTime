@@ -1,0 +1,17 @@
+{
+  "name": "stackexchangequestions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test",
+    "td": "NODE_ENV=test mocha debug test",
+    "debug": "NODE_ENV=debug node debug index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
