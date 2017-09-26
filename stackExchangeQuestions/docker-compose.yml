@@ -1,0 +1,16 @@
+version: '2'
+services:
+  rabbit:
+    container_name: rabbit
+    image: "rabbitmq:3.6.12"
+    hostname: rabbitmq_host
+    ports:
+      - "5672:5672"
+    restart: always
+  couch:
+    container_name: couchdb
+    image: "couchdb:1.6.1"
+    hostname: couchdb_host
+    ports:
+      - "5984:5984"
+    restart: always
