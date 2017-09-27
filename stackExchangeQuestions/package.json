@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "encodeurl": "^1.0.1",
+    "request": "^2.82.0",
     "stackexchange-node": "^1.0.1"
   }
 }
